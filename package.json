@@ -1,0 +1,24 @@
+{
+	"name": "node-gcs",
+	"version": "0.0.1",
+	"description": "Node.js wrapper for Google Cloud Storage API v2.0",
+	"main": "gcs.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/bsphere/node-gcs.git"
+	},
+	"keywords": [
+		"cloud storage",
+		"api",
+		"google"
+	],
+	"author": {
+		"name": "Gal Ben-Haim"
+	},
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"dependencies": {
+		"request": "2.12.0",
+		"gapitoken": "0.0.1"
+	}
+}
