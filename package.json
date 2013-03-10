@@ -1,6 +1,6 @@
 {
 	"name": "node-gcs",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Node.js wrapper for Google Cloud Storage API v2.0",
 	"main": "gcs.js",
 	"repository": {
@@ -18,7 +18,7 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"request": "2.12.0",
+		"request": "2.14.0",
 		"gapitoken": "0.0.1"
 	}
 }
