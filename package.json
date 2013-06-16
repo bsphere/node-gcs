@@ -19,6 +19,6 @@
 	"readmeFilename": "README.md",
 	"dependencies": {
 		"request": "2.14.0",
-		"gapitoken": "0.0.1"
+		"gapitoken": "0.0.3"
 	}
 }
