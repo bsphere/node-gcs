@@ -37,6 +37,9 @@ A new <a href="https://github.com/bsphere/node-gapitoken" target="_blank">gapito
     	    });
         });
     });    
+    
+    
+NOTE: see https://developers.google.com/storage/docs/authentication for possible scope options
 
 Supported Methods
 ----------------
