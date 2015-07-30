@@ -14,7 +14,7 @@ GCS.prototype.putStream = function(stream, bucket, filepath, headers, callback) 
         headers.Host = 'storage.googleapis.com';
         headers['x-goog-api-version'] = 2;
 
-        var url = 'http://storage.googleapis.com/' + bucket + filepath;
+        var url = 'https://storage.googleapis.com/' + bucket + filepath;
 
         stream.resume();
         stream.pipe(request.put(url, {headers: headers}, callback));
@@ -32,7 +32,7 @@ GCS.prototype.deleteFile = function(bucket, filepath, callback) {
         headers['Content-Length'] = 0;
         headers['x-goog-api-version'] = 2;
 
-        var url = 'http://storage.googleapis.com/' + bucket + filepath;
+        var url = 'https://storage.googleapis.com/' + bucket + filepath;
 
         request.del(url, {headers: headers}, callback);
     });
